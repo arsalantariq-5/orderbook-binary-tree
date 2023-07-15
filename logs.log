@@ -1,0 +1,96 @@
+2023-07-15T13:19:25.087Z info: Matching transactions deleted successfully
+2023-07-15T13:20:23.011Z info: Connected to the database
+2023-07-15T13:23:11.856Z error: Error connecting to the database: connect ETIMEDOUT
+2023-07-15T13:23:26.544Z info: Connected to the database
+2023-07-15T13:26:17.136Z info: Connected to the database
+2023-07-15T13:26:49.707Z info: Connected to the database
+2023-07-15T13:26:49.748Z info: Table order_book created successfully
+2023-07-15T13:27:02.737Z info: Matching transactions deleted successfully
+2023-07-15T13:27:14.671Z info: Matching transactions deleted successfully
+2023-07-15T13:28:08.331Z info: Matching transactions deleted successfully
+2023-07-15T13:28:10.466Z info: Matching transactions deleted successfully
+2023-07-15T13:31:35.513Z info: Connected to the database
+2023-07-15T13:31:42.699Z info: Price 12.3 added to the binary tree
+2023-07-15T13:31:42.700Z info: Current Binary Tree:
+2023-07-15T13:31:42.702Z info: Price undefined deleted from the binary tree
+2023-07-15T13:31:42.703Z info: Current Binary Tree:
+2023-07-15T13:31:42.703Z info: Matching transactions deleted successfully
+2023-07-15T13:32:09.885Z info: Price 12.3 added to the binary tree
+2023-07-15T13:32:09.886Z info: Current Binary Tree:
+2023-07-15T13:32:09.889Z info: Price undefined deleted from the binary tree
+2023-07-15T13:32:09.890Z info: Current Binary Tree:
+2023-07-15T13:32:09.891Z info: Matching transactions deleted successfully
+2023-07-15T13:32:37.504Z info: Price 12.3 added to the binary tree
+2023-07-15T13:32:37.507Z info: Current Binary Tree:
+2023-07-15T13:32:37.510Z info: Price undefined deleted from the binary tree
+2023-07-15T13:32:37.512Z info: Current Binary Tree:
+2023-07-15T13:32:37.513Z info: Matching transactions deleted successfully
+2023-07-15T13:34:00.882Z info: Connected to the database
+2023-07-15T13:34:04.379Z info: Price 12.3 added to the binary tree
+2023-07-15T13:34:04.380Z info: Current Binary Tree:
+2023-07-15T13:34:04.399Z info: Price undefined deleted from the binary tree
+2023-07-15T13:34:04.399Z info: Current Binary Tree:
+2023-07-15T13:34:04.400Z info: Matching transactions deleted successfully
+2023-07-15T13:34:09.466Z info: Price 12.3 added to the binary tree
+2023-07-15T13:34:09.469Z info: Current Binary Tree:
+2023-07-15T13:34:09.474Z info: Price undefined deleted from the binary tree
+2023-07-15T13:34:09.476Z info: Current Binary Tree:
+2023-07-15T13:34:09.477Z info: Matching transactions deleted successfully
+2023-07-15T13:34:20.887Z info: Price 12.3 added to the binary tree
+2023-07-15T13:34:20.889Z info: Current Binary Tree:
+2023-07-15T13:34:20.891Z info: Price undefined deleted from the binary tree
+2023-07-15T13:34:20.892Z info: Current Binary Tree:
+2023-07-15T13:34:20.893Z info: Matching transactions deleted successfully
+2023-07-15T13:45:54.296Z info: Connected to the database
+2023-07-15T13:46:01.706Z info: Price 12.3 added to the binary tree
+2023-07-15T13:46:01.706Z info: Current Binary Tree:
+2023-07-15T13:46:01.715Z info: Price undefined deleted from the binary tree
+2023-07-15T13:46:01.715Z info: Current Binary Tree:
+2023-07-15T13:46:01.715Z info: Matching transactions deleted successfully
+2023-07-15T13:47:34.588Z info: Connected to the database
+2023-07-15T13:47:37.476Z info: Order with ID 12 added to the binary tree
+2023-07-15T13:47:37.477Z info: Current Binary Tree:
+2023-07-15T13:47:47.764Z info: Order with ID 13 added to the binary tree
+2023-07-15T13:47:47.764Z info: Current Binary Tree:
+2023-07-15T13:49:01.409Z info: Connected to the database
+2023-07-15T13:49:03.661Z info: Order with ID 14 added to the binary tree
+2023-07-15T13:49:18.927Z info: Order with ID 15 added to the binary tree
+2023-07-15T13:51:06.163Z info: Connected to the database
+2023-07-15T13:51:08.072Z info: Order with ID undefined added to the binary tree
+2023-07-15T13:52:11.229Z info: Order with ID undefined added to the binary tree
+2023-07-15T13:52:16.839Z info: Order with ID undefined added to the binary tree
+2023-07-15T13:52:23.768Z info: Connected to the database
+2023-07-15T13:52:34.625Z info: Order with ID undefined added to the binary tree
+2023-07-15T13:53:05.854Z info: Order with ID undefined added to the binary tree
+2023-07-15T13:53:35.954Z info: Order with ID undefined added to the binary tree
+2023-07-15T13:53:49.137Z info: Order with ID undefined added to the binary tree
+2023-07-15T14:02:31.964Z info: Connected to the database
+2023-07-15T14:02:37.277Z info: Price 12.3 added to the binary tree
+2023-07-15T14:04:00.653Z info: Connected to the database
+2023-07-15T14:04:04.703Z info: Connected to the database
+2023-07-15T14:04:15.544Z info: Price 12.3 added to the binary tree
+2023-07-15T14:08:05.986Z info: Connected to the database
+2023-07-15T14:08:11.189Z info: Price 12.3 added to the binary tree
+2023-07-15T14:11:20.956Z info: Connected to the database
+2023-07-15T14:11:30.117Z info: Order with ID undefined added to the binary tree
+2023-07-15T14:17:50.328Z info: Connected to the database
+2023-07-15T14:22:27.839Z info: Connected to the database
+2023-07-15T14:22:33.982Z info: Order with ID undefined added to the binary tree
+2023-07-15T14:37:58.742Z info: Order with ID 1 added to the binary tree
+2023-07-15T14:38:39.941Z info: Order with ID 2 added to the binary tree
+2023-07-15T14:40:43.420Z info: Order with ID 3 added to the binary tree
+2023-07-15T14:40:49.686Z info: Order with ID 4 added to the binary tree
+2023-07-15T14:40:59.697Z info: Order with ID 5 added to the binary tree
+2023-07-15T14:41:21.747Z info: Order with ID 6 added to the binary tree
+2023-07-15T14:44:00.046Z info: Order with ID 7 added to the binary tree
+2023-07-15T14:44:00.048Z info: Order stored successfully
+2023-07-15T14:44:25.086Z info: Order with ID 8 added to the binary tree
+2023-07-15T14:44:25.088Z info: Order stored successfully
+2023-07-15T14:44:40.018Z info: Order with ID 9 added to the binary tree
+2023-07-15T14:44:40.019Z info: Order stored successfully
+2023-07-15T14:46:11.204Z info: Order with ID 10 added to the binary tree
+2023-07-15T14:46:11.206Z info: Order stored successfully
+2023-07-15T14:46:14.870Z info: Current Orders:
+2023-07-15T14:46:25.761Z info: Order with ID 11 added to the binary tree
+2023-07-15T14:46:25.762Z info: Order stored successfully
+2023-07-15T14:46:27.857Z info: Current Orders:
