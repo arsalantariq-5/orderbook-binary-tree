@@ -16,7 +16,6 @@ const storeOrder = async (req, res) => {
     tree.add({ id: orderId, side, price }); // Add the order to the binary tree
     logger.info(`Order with ID ${orderId} added to the binary tree`);
     logger.info(`Order stored successfully`);
-    // res.json({ message: 'Order stored successfully' });
 
     // Check for matching transactions
     const oppositeOrders = tree.find(oppositeSide);
