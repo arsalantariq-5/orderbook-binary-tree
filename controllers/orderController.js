@@ -1,3 +1,5 @@
+// controller.js
+
 const OrderBook = require("../models/OrderBook");
 const BinaryTree = require("../helpers/binaryTree");
 const constants = require("../helpers/constants");
@@ -5,27 +7,31 @@ const logger = require("../helpers/logger");
 
 let tree = new BinaryTree(); // Define the binary tree variable
 
-const storeOrder = async (req, res) => {
+const storeOrder = async (req, res, io) => {
   const { orders } = req.body;
 
   try {
-    // Store each order in the database and add to the binary tree
-    tree = await createBinaryTree();
-    
+    // Create the binary tree
+    if (!tree.root) {
+      await createBinaryTree();
+    }
+
     // Check for matching transactions
     for (const order of orders) {
       const { side, price } = order;
       const createdOrder = await OrderBook.create({ side, price });
       const orderId = createdOrder.id;
       const oppositeSide = order.side === "buy" ? "sell" : "buy";
-      const similarOrder = tree.findBySide(order.price, oppositeSide);
+      const similarOrder = tree.findBySide(oppositeSide, order.price);
       if (similarOrder.length === 0) {
         tree.add({ id: orderId, side, price });
-      }
-      else{
+      } else {
         await OrderBook.destroy({ where: { id: orderId } });
         tree.delete({ id: orderId, side: order.side, price: order.price });
       }
+
+      // Emit a transaction update to all connected clients
+      io.emit("transactionUpdate", { message: "Transaction processed", order });
     }
 
     // Fetch the updated orders from the database and log them
@@ -39,7 +45,7 @@ const storeOrder = async (req, res) => {
   }
 };
 
-const createBinaryTree = async (req, res) => {
+const createBinaryTree = async () => {
   // Fetch all existing orders from the database
   const existingOrders = await OrderBook.findAll();
 
@@ -51,7 +57,6 @@ const createBinaryTree = async (req, res) => {
   }
 
   logger.info("Binary tree created successfully");
-  return tree;
 };
 
 module.exports = { storeOrder, createBinaryTree };

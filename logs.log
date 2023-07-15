@@ -148,3 +148,38 @@
 2023-07-15T16:43:24.726Z info: Binary tree created successfully
 2023-07-15T16:43:27.422Z info: Orders stored successfully
 2023-07-15T16:45:24.131Z info: Current Orders:
+2023-07-15T18:44:40.571Z info: Binary tree created successfully
+2023-07-15T18:47:12.643Z info: Current Orders:
+2023-07-15T18:47:58.085Z info: Binary tree created successfully
+2023-07-15T18:48:18.066Z info: Current Orders:
+2023-07-15T19:11:43.137Z info: Binary tree created successfully
+2023-07-15T19:11:51.316Z error: Error storing orders: ReferenceError: io is not defined
+2023-07-15T19:15:32.665Z info: Binary tree created successfully
+2023-07-15T19:15:36.863Z error: Error storing orders: ReferenceError: io is not defined
+2023-07-15T19:18:59.323Z info: Binary tree created successfully
+2023-07-15T19:19:06.078Z error: Error storing orders: ReferenceError: io is not defined
+2023-07-15T19:29:22.987Z info: Binary tree created successfully
+2023-07-15T19:29:26.342Z error: Error storing orders: ReferenceError: io is not defined
+2023-07-15T19:31:13.932Z error: Error storing orders: ReferenceError: io is not defined
+2023-07-15T19:33:16.315Z info: Binary tree created successfully
+2023-07-15T19:33:18.114Z error: Error storing orders: ReferenceError: io is not defined
+2023-07-15T19:38:59.543Z error: Error storing orders: ReferenceError: io is not defined
+2023-07-15T19:42:44.172Z error: Error storing orders: ReferenceError: io is not defined
+2023-07-15T19:42:44.757Z error: Error storing orders: ReferenceError: io is not defined
+2023-07-15T19:42:45.286Z error: Error storing orders: ReferenceError: io is not defined
+2023-07-15T19:42:54.605Z error: Error storing orders: ReferenceError: io is not defined
+2023-07-15T19:43:03.647Z error: Error storing orders: ReferenceError: io is not defined
+2023-07-15T19:43:11.906Z error: Error storing orders: ReferenceError: io is not defined
+2023-07-15T19:43:17.407Z error: Error storing orders: ReferenceError: io is not defined
+2023-07-15T19:43:18.193Z error: Error storing orders: ReferenceError: io is not defined
+2023-07-15T19:43:18.957Z error: Error storing orders: ReferenceError: io is not defined
+2023-07-15T19:43:23.349Z error: Error storing orders: ReferenceError: io is not defined
+2023-07-15T19:43:24.621Z error: Error storing orders: ReferenceError: io is not defined
+2023-07-15T19:44:26.536Z error: Error storing orders: ReferenceError: io is not defined
+2023-07-15T19:47:11.028Z info: Binary tree created successfully
+2023-07-15T19:47:28.040Z info: Current Orders:
+2023-07-15T19:49:37.864Z info: Binary tree created successfully
+2023-07-15T19:49:53.290Z info: Current Orders:
+2023-07-15T19:50:08.823Z info: Current Orders:
+2023-07-15T20:24:11.670Z info: Binary tree created successfully
+2023-07-15T20:24:19.909Z info: Current Orders:
