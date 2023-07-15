@@ -94,3 +94,57 @@
 2023-07-15T14:46:25.761Z info: Order with ID 11 added to the binary tree
 2023-07-15T14:46:25.762Z info: Order stored successfully
 2023-07-15T14:46:27.857Z info: Current Orders:
+2023-07-15T15:27:58.846Z info: Order with ID 1 added to the binary tree
+2023-07-15T15:27:58.847Z info: Order stored successfully
+2023-07-15T15:27:58.853Z info: Current Orders:
+2023-07-15T15:36:48.719Z info: Order with ID 2 added to the binary tree
+2023-07-15T15:36:48.721Z info: Order stored successfully
+2023-07-15T15:37:23.163Z info: Current Orders:
+2023-07-15T15:37:52.383Z info: Order with ID 3 added to the binary tree
+2023-07-15T15:37:52.384Z info: Order stored successfully
+2023-07-15T15:38:10.941Z info: Current Orders:
+2023-07-15T15:42:21.467Z error: Error storing orders: SequelizeUniqueConstraintError: Validation error
+2023-07-15T15:45:09.218Z info: Order with ID 1 added to the binary tree
+2023-07-15T15:45:13.596Z info: Order with ID 2 added to the binary tree
+2023-07-15T15:45:13.597Z info: Orders stored successfully
+2023-07-15T15:45:19.885Z info: Current Orders:
+2023-07-15T15:46:01.063Z error: Error storing orders: SequelizeUniqueConstraintError: Validation error
+2023-07-15T15:48:58.596Z info: Order with ID 1 added to the binary tree
+2023-07-15T15:49:00.095Z info: Order with ID 2 added to the binary tree
+2023-07-15T15:49:00.096Z info: Orders stored successfully
+2023-07-15T15:49:42.527Z info: Current Orders:
+2023-07-15T15:53:59.005Z error: Error storing orders: SequelizeUniqueConstraintError: Validation error
+2023-07-15T15:56:30.799Z error: Error storing orders: SequelizeUniqueConstraintError: Validation error
+2023-07-15T15:57:12.325Z error: Error storing orders: SequelizeUniqueConstraintError: Validation error
+2023-07-15T15:58:33.693Z info: Order with ID 1 added to the binary tree
+2023-07-15T15:58:39.355Z info: Order with ID 2 added to the binary tree
+2023-07-15T15:58:39.356Z info: Orders stored successfully
+2023-07-15T15:58:53.107Z info: Current Orders:
+2023-07-15T15:59:03.478Z error: Error storing orders: SequelizeUniqueConstraintError: Validation error
+2023-07-15T16:09:52.937Z info: Binary tree created successfully
+2023-07-15T16:24:13.761Z info: Binary tree created successfully
+2023-07-15T16:26:36.860Z info: Binary tree created successfully
+2023-07-15T16:26:44.712Z info: Orders stored successfully
+2023-07-15T16:26:56.912Z error: Error storing orders: ReferenceError: orderId is not defined
+2023-07-15T16:27:49.062Z info: Binary tree created successfully
+2023-07-15T16:27:51.388Z info: Orders stored successfully
+2023-07-15T16:27:58.092Z error: Error storing orders: ReferenceError: id is not defined
+2023-07-15T16:28:07.525Z info: Binary tree created successfully
+2023-07-15T16:28:12.421Z info: Orders stored successfully
+2023-07-15T16:28:37.805Z error: Error storing orders: ReferenceError: id is not defined
+2023-07-15T16:31:13.309Z info: Binary tree created successfully
+2023-07-15T16:31:15.740Z info: Orders stored successfully
+2023-07-15T16:31:38.590Z error: Error storing orders: TypeError: console is not a function
+2023-07-15T16:34:44.680Z info: Binary tree created successfully
+2023-07-15T16:34:50.539Z info: Orders stored successfully
+2023-07-15T16:35:14.263Z info: Current Orders:
+2023-07-15T16:36:07.608Z info: Binary tree created successfully
+2023-07-15T16:36:09.816Z info: Orders stored successfully
+2023-07-15T16:36:28.384Z info: Current Orders:
+2023-07-15T16:36:42.849Z info: Binary tree created successfully
+2023-07-15T16:36:44.933Z info: Orders stored successfully
+2023-07-15T16:37:38.563Z info: Binary tree created successfully
+2023-07-15T16:38:27.560Z info: Orders stored successfully
+2023-07-15T16:43:24.726Z info: Binary tree created successfully
+2023-07-15T16:43:27.422Z info: Orders stored successfully
+2023-07-15T16:45:24.131Z info: Current Orders:

@@ -68,6 +68,31 @@ class Node {
   
       return results;
     }
+
+    findBySide(side, price) {
+        const result = [];
+      
+        const traverse = (node) => {
+          if (!node) {
+            return;
+          }
+      
+          if (node.side === side && node.price === price) {
+            result.push(node);
+          }
+      
+          if (node.side <= side && node.price <= price) {
+            traverse(node.right);
+          } else {
+            traverse(node.left);
+          }
+        };
+      
+        traverse(this.root);
+      
+        return result;
+      }
+      
   
     delete(value) {
       const deleteNode = (node, value) => {
