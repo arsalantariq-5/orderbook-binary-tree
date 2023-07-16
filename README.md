@@ -61,3 +61,20 @@ Now you can open http://localhost:3000/socket-client.html and recieve messages a
 Note:
 1. your server should be running 
 2. your client should be running
+
+## 3.Redis
+
+Redis file exist in redis directory and is integrated with index file at root.
+
+redis server should be running. Run following command
+
+      redis-server
+
+you can check if redis is running by this command
+
+      redis-cli -h localhost -p 6379 ping
+
+4. Docker
+
+
+
