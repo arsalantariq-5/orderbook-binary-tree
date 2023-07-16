@@ -76,5 +76,14 @@ you can check if redis is running by this command
 
 4. Docker
 
+Docker file is added in the project use following commands to run docker file. Docker should be installed on your system or server
+
+To build
+
+      docker build -t orderbook-binary-tree . 
+
+To run
+
+      docker run -p 3000:3000 orderbook-binary-tree 
 
 
